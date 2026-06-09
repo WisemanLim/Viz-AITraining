@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/wise/.claude/skills/gstack/browse/dist/browse stop *)",
+      "Bash(pkill -f \"http.server 8754\")",
+      "Bash(rm -rf /tmp/viz-serve /tmp/snapshot.py /tmp/viz_run1 /tmp/viz_run2 /tmp/viz_gid /tmp/viz-demo-api.log /tmp/viz-serve.log)"
+    ]
+  }
+}

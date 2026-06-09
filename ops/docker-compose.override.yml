@@ -1,0 +1,23 @@
+# Viz-AITraining — dev/staging compose override
+# Usage: docker compose -f ops/docker-compose.yml -f ops/docker-compose.override.yml up -d
+
+services:
+  postgres:
+    ports: ["5432:5432"]
+    restart: unless-stopped
+
+  redis:
+    ports: ["6379:6379"]
+    restart: unless-stopped
+
+  minio:
+    ports: ["9000:9000", "9001:9001"]
+    restart: unless-stopped
+
+  api:
+    profiles: ["app"]
+    environment:
+      ENV: ${ENV:-dev}
+    volumes:
+      - ../backend:/app:cached
+    command: ["uv", "run", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]

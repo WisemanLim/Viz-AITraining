@@ -1,0 +1,1 @@
+"""Viz-AITraining FastAPI application."""

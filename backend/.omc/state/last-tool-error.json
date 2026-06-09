@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"B=http://127.0.0.1:8011/api/v1\\n# 1) seed demo run\\nSEED=$(curl -s -X POST $B/demo/seed); echo \\\"seed: $SEED\\\"\\nRUN1=$(echo \\\"$SEED\\\" | python3 -c \\\"import sys,json;print(json.load(sys.std...",
+  "error": "Exit code 1\nseed: {\"run_id\":\"bdd6aa8d-e588-43b8-882e-b436f425dae3\",\"name\":\"demo-experiment\",\"scalars\":6,\"message\":\"Demo run created. Refresh the dashboard.\"}\nRUN1=bdd6aa8d-e588-43b8-882e-b436f425dae3\nRUN2=2e9fc459-f6c2-4d13-bb3d-930df74a5fca\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    import sys,json;print(json.load(sys.stdin)['id'])\n                          ~~~~~~~~~^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Version...",
+  "timestamp": "2026-06-09T02:50:21.441Z",
+  "retry_count": 1
+}

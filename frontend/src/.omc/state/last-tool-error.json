@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"cd \\\"/Users/wise/Developer/Web(Node,Script)/Viz-AITraining/frontend/src\\\" && git mv \\\"app/graphs/[id]/page.tsx\\\" \\\"app/graphs/[id]/view.tsx\\\" && git mv \\\"app/runs/[id]/page.tsx\\\" \\\"app/run...",
+  "error": "Exit code 128\nfatal: not under version control, source=frontend/src/app/graphs/[id]/page.tsx, destination=frontend/src/app/graphs/[id]/view.tsx",
+  "timestamp": "2026-06-09T02:10:29.831Z",
+  "retry_count": 1
+}

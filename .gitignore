@@ -1,0 +1,106 @@
+# ===== common / 공통 (env·secrets·logs·editor) =====
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+secrets.*
+.secrets/
+*.log
+logs/
+tmp/
+.tmp/
+*.pid
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.shared.json
+*.swp
+*.swo
+*~
+test/**/logs/
+!test/**/logs/.gitkeep
+
+# ===== Python (uv · pytest · ruff · mypy) =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+wheels/
+.Python
+.venv/
+venv/
+env/
+ENV/
+.uv/
+.uv-cache/
+pip-log.txt
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+dist/
+build/
+
+# ===== Node (frontend — Next.js · npm · eslint) =====
+node_modules/
+.next/
+out/
+.turbo/
+.eslintcache
+coverage/
+*.tsbuildinfo
+.vercel
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===== platform temp / 시스템 임시파일 =====
+# --- macOS ---
+.DS_Store
+.DS_Store?
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+# --- Windows ---
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# --- Linux ---
+.directory
+.Trash-*
+.nfs*
+.fuse_hidden*
+
+# ===== publish (make publish) =====
+frontend/out/
+
+# ===== project-specific =====
+*.db
+local.db
+.storage/
+*.pt
+*.pth
+*.onnx
+!.doc/onnx-samples/*.onnx
+checkpoints/
+backend/artifacts/

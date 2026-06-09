@@ -1,0 +1,77 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780970649318,
+  "projectRoot": "/Users/wise/Developer/Web(Node,Script)/Viz-AITraining",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": null
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "Makefile",
+      "accessCount": 3,
+      "lastAccessed": 1780970936078,
+      "type": "file"
+    },
+    {
+      "path": "README.en.md",
+      "accessCount": 3,
+      "lastAccessed": 1780971158261,
+      "type": "file"
+    },
+    {
+      "path": "frontend/next.config.ts",
+      "accessCount": 2,
+      "lastAccessed": 1780970923606,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 2,
+      "lastAccessed": 1780970945237,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 2,
+      "lastAccessed": 1780971203943,
+      "type": "file"
+    },
+    {
+      "path": "frontend/package.json",
+      "accessCount": 1,
+      "lastAccessed": 1780970851106,
+      "type": "file"
+    },
+    {
+      "path": "scripts/publish-pages.sh",
+      "accessCount": 1,
+      "lastAccessed": 1780970913946,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}
